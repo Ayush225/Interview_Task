@@ -6,7 +6,7 @@ def get_settlement_details(date):
 
 
     # Send an HTTP GET request
-    response = requests.get(url)O10/24/2023
+    response = requests.get(url)
     
     if response.status_code == 200:
         data = response.json()
